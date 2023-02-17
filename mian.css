@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.search {
+    position: relative;
+    display: block;
+    width: 561px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search_input {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 561px;
+    height: 44px;
+    padding: 1px 44px 1px 52px;
+    margin-top: 25px;
+    border-radius: 50px;
+    border: 1px solid #00000085;
+
+    font-weight: 500;
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: 0;
+}
+.search_icon {
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    width: 32px;
+    color: #5f6368ff;
+}
+.Voice_search {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    width: 32px;
+    cursor: pointer;
+}
+
+#pusk {
+    position: absolute;
+    display: block;
+    border-radius: 50px;
+    width: 561px;
+    height: 44px;
+    margin: 0 auto;
+    outline: 0;
+    transform: translateY(-44px);
+}
+
+.internet {
+    position: relative;
+    width: 112px;
+    height: 112px;
+    background-color: #00000017;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+
+.internet:hover {
+    background-color: #0000009e;
+    display: block;
+}
+
+.internet-box .img-div {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-color: #000000c3;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+}
+.internet-img {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.internet-twxt {
+    font-weight: 400px;
+    position: absolute;
+    border-radius: 20px;
+    padding: 2px 8px;
+    font-size: 15px;
+    bottom: 15px;
+    left: 14px;
+    background-color: #ffff;
+}
+
+.icon-x-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transform: translateY(-48px);
+}
+
+.icon-x {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    color: rgb(255 255 255);
+    display: none;
+}
+
+
+.link {
+    position: absolute;
+    display: flex;
+    top: 15px;
+    right: 25px;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-pochta {
+    color: #000000c6;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.link-pochta:hover {
+    transition: all 0.3s linear;
+    text-decoration: underline;
+}
+
+.link-img {
+    color: #000000c6;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.link-img:hover {
+    transition: all 0.3s linear;
+    text-decoration: underline;
+}
+
+.svg-img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.gb_0e {
+    position: absolute;
+    width: 24px;
+    cursor: pointer;
+    top: 3px;
+    left: 3px;
+    transition: all 0.3s linear;
+}
+
+.svg-img:hover {
+    background-color: #0000004e;
+}
+
+.activeBox {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 400px;
+    top: 40px;
+    right: 1px;
+    background-color: #000000cf;
+    box-shadow: -2px 2px 1px #000;
+    border-radius: 10px;
+    display: none;
+}
+
+.add {
+    display: flex;
+}
+
+.box-icon{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.box-icon:hover {
+    background-color: #0000004e;
+}
+
+.icon-pen{
+    position: absolute;
+    font-size: 15px;
+    top: 6px;
+    left: 6px;
+    color: black;
+}
+
+
+
+
+.icon-x-box:hover .icon-x {
+    display: block;
+}
+
+.icon-x:active {
+    transform: rotate(45deg);
+}

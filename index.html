@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style -->
+    <link rel="stylesheet" href="mian.css">
+</head>
+<body >
+    <div class="container" > 
+        <img class="img-logo" src="Google_2015_logo.svg.png" alt="" width="272" height="92px">
+        <div class="link" >
+            <a class="link-pochta" href="#">Почта</a>
+            <a class="link-img" href="#">Картинки</a>
+            <div class="svg-img" onclick="addbtn()" >
+                <svg class="gb_0e" focusable="false" viewBox="0 0 24 24">
+                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                    </path>
+                    <svg class="gb_0e" focusable="false" viewBox="0 0 24 24">
+                        <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                        </path>
+                    </svg>
+                </svg>
+            </div>
+            <div class="activeBox" onclick="btn()">
+            </div>
+        </div>
+        <form action="#" >
+            <label class="search" for="search">
+                <input class="search_input" type="text" placeholder="Введите поисковый запрос или URL">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                <img class="Voice_search" src="Google-Voice.jpg" alt="" width="26px">
+            </label>
+            <!-- <select name="pusk" id="pusk">
+                <option value="w3schools">w3schools</option>
+                <option value="Codewars">Codewars</option>
+                <option value="JS Info">JS Info</option>
+                <option value="Jschallenger">Jschallenger</option>
+            </select> -->
+        </form>
+        <div class="internet">
+            <div class="internet-box">
+                <div class="img-div"><img class="internet-img" src="Безназвания.png" alt=""></div>
+                <p class="internet-twxt">Интернет</p>
+                <div class="icon-x-box"><i class="fa-solid fa-xmark icon-x"></i></div>
+            </div>
+        </div>
+        <div class="box-icon">
+            <i class="fa-solid fa-pen icon-pen"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
